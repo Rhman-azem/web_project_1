@@ -49,7 +49,7 @@
 
 .header__title {
   max-width: 730px;
-  
+
   align-self: center;
   margin: 0 0 0 64px;
   z-index: 1;
@@ -92,7 +92,6 @@
   flex-direction: row;
   justify-content: center;
   margin-bottom: 70px;
-  
 }
 
 .two-columns {
@@ -198,9 +197,7 @@
   background-color: #f2f2f2;
 }
 
-
 .feynman__title {
-  
   padding-top: 100px;
   width: 775px;
   text-align: center;
@@ -229,7 +226,6 @@
   bottom: 0;
   left: 0;
   z-index: 1;
-  
 }
 
 .feynman__link {
