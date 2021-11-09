@@ -36,7 +36,7 @@
 /* including elements with key-value modifiers */
 
 .logo {
-  z-index: 2;
+  z-index: 1;
 }
 
 .logo_place_header {
@@ -67,6 +67,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  z-index: 2;
 }
 
 .header__link {
@@ -254,6 +255,7 @@
   background-color: #1f1f1f;
   padding-top: 90px;
   padding-bottom: 90px;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -272,7 +274,7 @@
   position: absolute;
   top: 0;
   right: -124px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .table_theme_dark {
