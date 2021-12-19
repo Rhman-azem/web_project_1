@@ -1,3 +1,5 @@
+@import url(../rotation/rotation.css);
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -18,6 +20,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  overflow: hidden;
   /* parameters for the header section */
 }
 
@@ -119,7 +122,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin:0 0 30px;
+  margin: 0 0 30px;
 }
 
 .two-columns__paragraph:last-child {
@@ -133,18 +136,66 @@
 }
 
 /*3rd page*/
-
-.digits {
+.techniques {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 100px;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 920px;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.cards__item {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 43px;
+  margin-bottom: 0;
+}
+
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+/*3rd page*/
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
 .section-title {
   width: 60%;
   margin: 0 0 20px 0;
-  line-height: 69px;
+  line-height: 1.5;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
@@ -195,11 +246,38 @@
 
 /*4th page*/
 
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video__iframes {
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video__section-title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.video__section-subtitle {
+  margin-bottom: 50px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/*4th page*/
+
 .feynman {
   position: relative;
   min-height: 690px;
   background-color: #f2f2f2;
-  padding-top: 100px;
 }
 
 .feynman__title {
@@ -245,6 +323,93 @@
 
 /*5th page*/
 
+.oakley {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f2f2f2;
+  margin-top: -60px;
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+
+/*5th page*/
+
+/* khan*/
+
+.khan {
+  margin: 0 auto 0;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #f2f2f2;
+  padding-top: 105px;
+}
+
+.khan__container {
+  margin: 0 auto 0;
+}
+
+.khan__author {
+  margin: 0px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  margin: 0 0 50px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan_quote {
+  width: 790px;
+  margin-bottom: 36px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  margin-bottom: 10px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  margin-bottom: 68px;
+  line-height: 1.15px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  height: 608px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.khan__book-pic {
+  width: 620px;
+  margin-right: 48px;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+/*kaufman*/
+
 .kaufman {
   position: relative;
   display: flex;
@@ -252,6 +417,7 @@
   align-items: center;
   overflow: hidden;
   background-color: #1f1f1f;
+
   padding-top: 90px;
   padding-bottom: 90px;
   z-index: 1;
@@ -295,6 +461,33 @@
 
 .table__text_theme_dark {
   color: white;
+}
+
+/* useful resources*/
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 217px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
+
+.resources__section-title {
+  margin-bottom: 20px;
+}
+
+.resources__section-subtitle {
+  margin-bottom: 80px;
 }
 
 /* footer page*/
