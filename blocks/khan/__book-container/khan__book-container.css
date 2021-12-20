@@ -1,0 +1,10 @@
+/* khan*/
+
+  .khan__book-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 608px;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
