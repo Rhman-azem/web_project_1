@@ -5,27 +5,3 @@
     flex-direction: column;
     align-items: center;
   }
-  .video__iframes {
-    width: 1050px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    border:0;
-  }
-  
-  .video__section-title {
-    line-height: 1.15;
-    font-size: 60px;
-    font-weight: bold;
-  }
-  
-  .video__section-subtitle {
-    margin-bottom: 50px;
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-  }
-  
-
-  
