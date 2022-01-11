@@ -3,4 +3,8 @@
     font-size: 18px;
     font-weight: normal;
     margin: 0;
-  }
+}
+
+.table__text:last-child {
+  margin-top: 20px;
+}
