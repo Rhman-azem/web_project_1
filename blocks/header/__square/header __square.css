@@ -1,25 +1,11 @@
 .header__square {
-    z-index: 0;
-    background-color: #2f80ed;
-    height: 568px;
-    width: 568px;
-    position: absolute;
-    top: 64px;
-    right: 0px;
-    display: flex;
-    transform: rotate(-15deg);
-    animation: rotation 20s linear infinite;
-  }
-
-  /* 
-  Hi, I'm so sorry to return the 'animation' task unchanged but I can't figure out what to do.
-  I've searched alot of soultions on the web and all of them use the 'animation' function inside the class.
-  I tried really hard to make it work, but I can't for the life of me find an answer.
-  I might be asking for a bit much here, but can you at least give me a hint on how I'm supposed to do it correctly ?
-  
-  Many thanks :),
-  Rhman Azem.
-
-  P.S. 
-  I don't know if I made to correct decision, I made to liks pop-out when you hover over them. should I reverse the 'opacity' ?
-  */
+  z-index: 0;
+  background-color: #2f80ed;
+  height: 568px;
+  width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  display: flex;
+  transform: rotate(-15deg);
+}

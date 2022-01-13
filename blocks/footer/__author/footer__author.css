@@ -1,9 +1,9 @@
 .footer__autor {
-    justify-content: start;
-    align-content: end;
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-    color: white;
-    margin: 18px 0;
-  }
+  justify-content: start;
+  align-content: end;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  margin: 18px 0;
+}

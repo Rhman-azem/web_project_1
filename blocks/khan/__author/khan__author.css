@@ -1,8 +1,6 @@
-/* khan*/
-
-  .khan__author {
-    margin: 0px;
-    line-height: 42px;
-    font-size: 30px;
-    font-weight: normal;
-  }
+.khan__author {
+  margin: 0px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
